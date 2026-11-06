@@ -20,7 +20,7 @@ export default function ContactPage() {
             <h2>Contact details</h2>
             <dl>
               <div><dt>Phone / WhatsApp</dt><dd>{site.phone}</dd></div>
-              <div><dt>Email</dt><dd>{site.email}</dd></div>
+              {/* <div><dt>Email</dt><dd>{site.email}</dd></div> */}
               <div><dt>Office</dt><dd>{site.address}</dd></div>
               <div><dt>Business hours</dt><dd>{site.hours}</dd></div>
             </dl>
