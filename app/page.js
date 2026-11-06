@@ -5,6 +5,7 @@ import SmartImage from "@/components/SmartImage";
 import PropertyCard from "@/components/PropertyCard";
 import CtaBand from "@/components/CtaBand";
 import { developers, properties, developerImage } from "@/lib/data";
+import Image from "next/image";
 
 export default function HomePage() {
   // One featured project per developer, until the real selection is supplied.
@@ -29,9 +30,20 @@ export default function HomePage() {
           </div>
           <HeroSearch />
         </div>
+
         <ul className="hero-devs container" aria-label="Featured developers">
           {developers.map((d) => (
-            <li key={d.slug}><Link href={`/properties?developer=${d.slug}`}>{d.name}</Link></li>
+            <li key={d.slug}>
+              <Link href={`/properties?developer=${d.slug}`}>
+                <Image
+                  src={d.logo}
+                  alt={`${d.name} logo`}
+                  width={120}
+                  height={60}
+                  className="developer-logo"
+                />
+              </Link>
+            </li>
           ))}
         </ul>
       </section>
