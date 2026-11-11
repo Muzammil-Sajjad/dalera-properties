@@ -8,7 +8,7 @@ export default function LoaderMark({ label = "Loading" }) {
         </svg>
         <img src="/images/icon.png" alt="" width="64" height="57" />
       </div>
-      <span className="loader-word">Dalera Properties</span>
+      <span className="loader-word">Addax Properties</span>
       <span className="visually-hidden">{label}</span>
     </div>
   );

@@ -37,7 +37,7 @@ export default function SiteLoader() {
   if (phase === "gone") return null;
   return (
     <div className={`site-loader ${phase === "hide" ? "is-hidden" : ""}`}>
-      <LoaderMark label="Loading Dalera Properties" />
+      <LoaderMark label="Loading Addax Properties" />
     </div>
   );
 }

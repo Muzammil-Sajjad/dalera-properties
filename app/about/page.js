@@ -1,7 +1,7 @@
 import PageHero from "@/components/PageHero";
 import CtaBand from "@/components/CtaBand";
 
-export const metadata = { title: "About Dalera Properties | Dubai Real Estate Advisory" };
+export const metadata = { title: "About Addax Properties | Dubai Real Estate Advisory" };
 
 export default function AboutPage() {
   return (
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="container split">
           <h2>Who We Are</h2>
           <div className="prose">
-            <p>Dalera Properties is a real estate advisory brand focused on helping Pakistani investors and property buyers explore opportunities in Dubai.</p>
+            <p>Addax Properties is a real estate advisory brand focused on helping Pakistani investors and property buyers explore opportunities in Dubai.</p>
             <p>Our approach brings together market knowledge, personalized consultation and a commitment to making property discovery easier to understand. We recognize that purchasing property abroad is an important decision. That is why our focus is on helping clients explore their options with clarity, confidence and convenience.</p>
             <p>From your first inquiry to evaluating potential properties, we aim to make every step more informed and approachable.</p>
           </div>
@@ -48,7 +48,7 @@ export default function AboutPage() {
       <section className="section section--green">
         <div className="container narrow">
           <h2>Your Goals Deserve Our Attention</h2>
-          <p>Real estate advisory should go beyond presenting listings. It should begin with understanding your ambitions, answering your questions and helping you evaluate options with care. At Dalera Properties, every property journey is personal.</p>
+          <p>Real estate advisory should go beyond presenting listings. It should begin with understanding your ambitions, answering your questions and helping you evaluate options with care. At Addax Properties, every property journey is personal.</p>
         </div>
       </section>
 

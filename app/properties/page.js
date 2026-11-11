@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import PropertiesBrowser from "@/components/PropertiesBrowser";
 import { categories } from "@/lib/data";
 
-export const metadata = { title: "Dubai Properties for Sale | Dalera Properties" };
+export const metadata = { title: "Dubai Properties for Sale | Addax Properties" };
 
 export default function PropertiesPage() {
   return (

@@ -2,14 +2,14 @@ import PageHero from "@/components/PageHero";
 import InquiryForm from "@/components/InquiryForm";
 import { site, whatsappHref } from "@/lib/data";
 
-export const metadata = { title: "Contact Dalera Properties | Dubai Real Estate" };
+export const metadata = { title: "Contact Addax Properties | Dubai Real Estate" };
 
 export default function ContactPage() {
   return (
     <>
       <PageHero
         title="Your Dubai Property Journey Starts Here"
-        text="Have a question, a preferred development or an investment goal? Share your requirements and connect with Dalera Properties. We will help you explore relevant property opportunities."
+        text="Have a question, a preferred development or an investment goal? Share your requirements and connect with Addax Properties. We will help you explore relevant property opportunities."
       />
       <section className="section">
         <div className="container contact-grid">

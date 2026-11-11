@@ -14,7 +14,7 @@ export default function PropertyCard({ p }) {
         <dl className="prop-meta">
           <div><dt>Developer</dt><dd>{p.developer}</dd></div>
           <div><dt>Location</dt><dd>{p.location}</dd></div>
-          <div><dt>Property type</dt><dd>{p.type}</dd></div>
+          {/* <div><dt>Property type</dt><dd>{p.type}</dd></div> */}
           <div><dt>Starting price</dt><dd>{formatPrice(p)}</dd></div>
         </dl>
         <Link href={`/properties/${p.slug}`} className="btn btn--line-green">View Details</Link>

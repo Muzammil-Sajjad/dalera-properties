@@ -2,7 +2,7 @@ import PageHero from "@/components/PageHero";
 import CtaBand from "@/components/CtaBand";
 import { faqs } from "@/lib/data";
 
-export const metadata = { title: "Why Invest in Dubai Real Estate? | Dalera" };
+export const metadata = { title: "Why Invest in Dubai Real Estate? | Addax" };
 
 const reasons = [
   ["International Ownership", "Foreign buyers can generally purchase in designated freehold areas, subject to UAE rules."],
@@ -42,7 +42,7 @@ export default function WhyDubaiPage() {
         <div className="container two-col">
           <div>
             <h2>Dubai Property Opportunities, Closer to Home</h2>
-            <p>You can start exploring properties from Pakistan by reviewing project information, comparing available options and discussing your preferences with Dalera Properties through online consultations.</p>
+            <p>You can start exploring properties from Pakistan by reviewing project information, comparing available options and discussing your preferences with Addax Properties through online consultations.</p>
           </div>
           <div>
             <h2>Every Great Investment Begins with an Informed Decision</h2>

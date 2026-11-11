@@ -41,7 +41,7 @@ export default function InquiryForm({ project = null, defaultRequest = "Consulta
       <div className="form-success" role="status">
         <h3>Inquiry received</h3>
         <p>
-          Thank you for contacting Dalera Properties. Your inquiry has been received. Our team
+          Thank you for contacting Addax Properties. Your inquiry has been received. Our team
           will review your requirements and contact you using the details provided.
         </p>
       </div>
@@ -116,7 +116,7 @@ export default function InquiryForm({ project = null, defaultRequest = "Consulta
         <label className="check">
           <input type="checkbox" name="consent" />
           <span>
-            I agree to be contacted by Dalera Properties and I have read the{" "}
+            I agree to be contacted by Addax Properties and I have read the{" "}
             <Link href="/privacy-policy">Privacy Policy</Link>. <span aria-hidden="true">*</span>
           </span>
         </label>

@@ -17,8 +17,8 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link href="/" className="brand" aria-label="Dalera Properties home">
-          <img src="/images/logo.png" alt="Dalera Properties" width="900" height="224" className="brand-logo" />
+        <Link href="/" className="brand" aria-label="Addax Properties home">
+          <img src="/images/logo.png" alt="Addax Properties" width="900" height="224" className="brand-logo" />
         </Link>
 
         <button

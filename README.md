@@ -1,4 +1,4 @@
-# Dalera Properties: frontend (Next.js, JavaScript)
+# Addax Properties: frontend (Next.js, JavaScript)
 
 ```
 npm install

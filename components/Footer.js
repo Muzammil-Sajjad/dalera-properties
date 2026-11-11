@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <img src="/images/logo.png" alt="Dalera Properties" width="900" height="224" className="footer-logo" />
+          <img src="/images/logo.png" alt="Addax Properties" width="900" height="224" className="footer-logo" />
           <p className="footer-tag">{site.tagline}</p>
           <p className="footer-copy">
             Connecting Pakistani buyers and investors with Dubai property opportunities through
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="container footer-base">
-        <p>© 2026 Dalera Properties. All rights reserved.</p>
+        <p>© 2026 Addax Properties. All rights reserved.</p>
         <p>Prices, availability and completion dates may change. Not a guarantee of returns.</p>
       </div>
     </footer>

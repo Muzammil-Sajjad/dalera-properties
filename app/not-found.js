@@ -1,7 +1,7 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
-export const metadata = { title: "Page not found | Dalera Properties" };
+export const metadata = { title: "Page not found | Addax Properties" };
 
 export default function NotFound() {
   return (

@@ -36,7 +36,7 @@ export default function SocialLinks() {
       <li key={name}>
         <a
           href={href}
-          aria-label={`Dalera Properties on ${name}`}
+          aria-label={`Addax Properties on ${name}`}
           target="_blank"
           rel="noopener noreferrer"
         >

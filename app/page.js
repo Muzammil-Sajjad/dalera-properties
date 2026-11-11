@@ -4,7 +4,7 @@ import HeroVideo from "@/components/HeroVideo";
 import SmartImage from "@/components/SmartImage";
 import PropertyCard from "@/components/PropertyCard";
 import CtaBand from "@/components/CtaBand";
-import { developers, properties, developerImage } from "@/lib/data";
+import { developers, properties, developerImage, developerImage_2, developers_2 } from "@/lib/data";
 import Image from "next/image";
 
 export default function HomePage() {
@@ -19,7 +19,7 @@ export default function HomePage() {
           <div className="hero-copy">
             <h1>From Your Home to Dubai’s Finest.</h1>
             <p className="lead">
-              Discover exceptional properties and investment opportunities in Dubai with Dalera
+              Discover exceptional properties and investment opportunities in Dubai with Addax
               Properties. From exploring your options to making informed decisions, we bring
               personalized real estate guidance closer to home.
             </p>
@@ -55,20 +55,20 @@ export default function HomePage() {
           </div>
           <div className="prose">
             <p>
-              At Dalera Properties, we believe that investing beyond borders should feel
+              At Addax Properties, we believe that investing beyond borders should feel
               straightforward, informed, and accessible. We connect Pakistani buyers and investors
               with carefully considered real estate opportunities in Dubai, offering personalized
               guidance to help them navigate the market with confidence.
             </p>
             <p>
               Whether you are looking to diversify your investment portfolio, purchase a second
-              home, or explore Dubai’s newest developments, Dalera Properties is here to help you
+              home, or explore Dubai’s newest developments, Addax Properties is here to help you
               find an opportunity aligned with your vision.
             </p>
           </div>
         </div>
       </section>
-
+{/* Properties card */}
       <section className="section section--sand">
         <div className="container">
           <h2>Discover Dubai’s Finest Properties</h2>
@@ -86,7 +86,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+{/* Developers cards */}
       <section className="section">
         <div className="container">
           <h2>Explore Properties by Developer</h2>
@@ -94,10 +94,10 @@ export default function HomePage() {
             Discover opportunities by Emaar, Danube, Binghatti, DAMAC, Imtiaz and Azizi.
           </p>
           <ul className="dev-tiles">
-            {developers.map((d) => (
+            {developers_2.map((d) => (
               <li key={d.slug}>
                 <Link href={`/properties?developer=${d.slug}`}>
-                  <SmartImage src={developerImage(d.slug)} alt={`${d.name} developments`} width="1200" height="800" />
+                  <SmartImage src={developerImage_2(d.slug)} alt={`${d.name} developments`} width="1200" height="800" />
                   <span>{d.name}</span>
                 </Link>
               </li>
@@ -149,7 +149,7 @@ export default function HomePage() {
 
       <CtaBand
         title="Your Next Investment Could Begin at Home"
-        text="Your Dubai property journey begins with a conversation. Connect with Dalera Properties to explore opportunities tailored to your goals."
+        text="Your Dubai property journey begins with a conversation. Connect with Addax Properties to explore opportunities tailored to your goals."
         label="Speak to Our Team"
       />
     </>

@@ -19,9 +19,9 @@ const body = Montserrat({
 });
 
 export const metadata = {
-  title: "Dalera Properties | Invest in Dubai from Pakistan",
+  title: "Addax Properties | Invest in Dubai from Pakistan",
   description:
-    "Explore Dubai real estate opportunities from Pakistan with Dalera Properties. Discover projects by Emaar, Danube, DAMAC, Binghatti, Imtiaz and Azizi.",
+    "Explore Dubai real estate opportunities from Pakistan with Addax Properties. Discover projects by Emaar, Danube, DAMAC, Binghatti, Imtiaz and Azizi.",
 };
 
 export default function RootLayout({ children }) {

@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const p = properties.find((x) => x.slug === slug);
-  return { title: p ? `${p.name} by ${p.developer} | Dalera Properties` : "Project | Dalera Properties" };
+  return { title: p ? `${p.name} by ${p.developer} | Addax Properties` : "Project | Addax Properties" };
 }
 
 export default async function PropertyPage({ params }) {
@@ -72,7 +72,7 @@ export default async function PropertyPage({ params }) {
         </div>
       </section>
 
-      <section className="section">
+      {/* <section className="section">
         <div className="container two-col">
           <div>
             <h2>Gallery &amp; Plans</h2>
@@ -90,7 +90,7 @@ export default async function PropertyPage({ params }) {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section section--sand">
         <div className="container two-col">
@@ -112,7 +112,7 @@ export default async function PropertyPage({ params }) {
       <section className="section section--green" id="enquire">
         <div className="container narrow">
           <h2>Interested in {p.name}?</h2>
-          <p>Request the official brochure, review available units and speak to the Dalera Properties team for the latest confirmed information.</p>
+          <p>Request the official brochure, review available units and speak to the Addax Properties team for the latest confirmed information.</p>
           <div className="form-on-green">
             <InquiryForm project={p.name} defaultRequest="Request latest pricing" />
           </div>
