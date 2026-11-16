@@ -1,12 +1,20 @@
 :root {
-  --green: #0e3b32;
+  /* --green: #0e3b32;
   --green-deep: #0a2c25;
   --green-soft: #164b40;
   --gold: #c9a96b;
   --ivory: #f2efe7;
   --sand: #e8e3d4;
   --charcoal: #2b2b2b;
-  --line: rgba(14, 59, 50, 0.18);
+  --line: rgba(14, 59, 50, 0.18); */
+  --green: #2F2218;
+  --green-deep:  #1A1410;
+  --green-soft: #B8956A;
+  --gold: #c9a96b;
+  --ivory: #f2efe7;
+  --sand: #F5F1EA;
+  --charcoal: #2b2b2b;
+  --line: rgba(47, 34, 24, 0.18);
   --header-h: 76px;
 }
 
@@ -294,7 +302,17 @@ ol {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(90deg, rgba(6, 36, 30, 0.94) 0%, rgba(6, 36, 30, 0.72) 42%, rgba(6, 36, 30, 0.1) 100%), linear-gradient(0deg, rgba(6, 36, 30, 0.75) 0%, rgba(6, 36, 30, 0) 35%);
+  background: linear-gradient(
+  90deg,
+  rgba(26, 20, 16, 0.94) 0%,
+  rgba(47, 34, 24, 0.72) 42%,
+  rgba(47, 34, 24, 0.1) 100%
+),
+linear-gradient(
+  0deg,
+  rgba(26, 20, 16, 0.75) 0%,
+  rgba(26, 20, 16, 0) 35%
+);
 }
 
 .hero-grid {
@@ -325,7 +343,8 @@ ol {
 }
 
 .hero-card {
-  background: rgba(10, 44, 37, 0.62);
+  /* background: rgba(10, 44, 37, 0.62); */
+  background: rgba(26, 20, 16, 0.62);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(201, 169, 107, 0.55);
@@ -1031,7 +1050,7 @@ ol {
 
 .route-loader {
   z-index: 900;
-  background: rgba(14, 59, 50, 0.9);
+  background: rgba(47, 34, 24, 0.9);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -1201,7 +1220,7 @@ ol {
 
 /* Logo, images, tiles */
 .brand-logo {
-  height: 44px;
+  height: 66px;
   width: auto;
   display: block;
 }
@@ -1239,7 +1258,7 @@ ol {
   position: absolute;
   left: 12px;
   bottom: 12px;
-  background: rgba(10, 44, 37, 0.85);
+  background: rgba(26, 20, 16, 0.85);
   color: var(--ivory);
   font: 600 0.78rem/1 var(--font-body), sans-serif;
   letter-spacing: 0;

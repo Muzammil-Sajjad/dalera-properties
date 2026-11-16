@@ -35,10 +35,33 @@ export default async function PropertyPage({ params }) {
           <p className="crumbs"><Link href="/properties">Properties</Link> / {p.developer}</p>
           <h1>{p.name}</h1>
           <p className="lead">{p.developer} · {p.location}</p>
-          <div className="btn-row">
+          {/* <div className="btn-row">
             <a href="#enquire" className="btn btn--gold">Request Latest Pricing</a>
             <a href="#enquire" className="btn btn--line-light">Download Brochure</a>
-          </div>
+          </div> */}
+          <div className="btn-row">
+  <a href="#enquire" className="btn btn--gold">
+    Request Latest Pricing
+  </a>
+
+  <a
+    href={p.brochure || "#enquire"}
+    {...(p.brochure ? { download: true } : {})}
+    className="btn btn--line-light"
+  >
+    Download Brochure
+  </a>
+
+  <a
+    href={p.floorPlan || "#enquire"}
+    {...(p.floorPlan
+      ? { target: "_blank", rel: "noopener noreferrer" }
+      : {})}
+    className="btn btn--line-light"
+  >
+    View Floor Plan
+  </a>
+</div>
         </div>
       </section>
 
@@ -72,7 +95,7 @@ export default async function PropertyPage({ params }) {
         </div>
       </section>
 
-      {/* <section className="section">
+      <section className="section">
         <div className="container two-col">
           <div>
             <h2>Gallery &amp; Plans</h2>
@@ -90,7 +113,7 @@ export default async function PropertyPage({ params }) {
             )}
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="section section--sand">
         <div className="container two-col">

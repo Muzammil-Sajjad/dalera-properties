@@ -18,7 +18,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand" aria-label="Addax Properties home">
-          <img src="/images/logo.png" alt="Addax Properties" width="900" height="224" className="brand-logo" />
+          <img src="/images/logo.png" alt="Addax Properties" width="1000" height="234" className="brand-logo" />
         </Link>
 
         <button
