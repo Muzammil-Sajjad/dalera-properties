@@ -157,6 +157,7 @@ export default async function PropertyPage({ params }) {
           <div className="pdx-cell is-price">
             <dt>Starting price</dt>
             <dd>{p.startingPrice ? (<><small>AED</small> {fmt(p.startingPrice)}</>) : "Price on request"}</dd>
+            <p>{p.priceNote}</p>
           </div>
           <div className="pdx-cell">
             <dt>Handover</dt>
